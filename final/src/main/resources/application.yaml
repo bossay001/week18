@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/restaurant_api
+    username: food
+    password: food
+
+  jpa:
+    hibernate:
+      ddl-auto: update       # Keeps data, only updates schema if needed
+    show-sql: true           # Show SQL in the console
+    properties:
+      hibernate:
+        format_sql: true     # Format SQL output for readability
